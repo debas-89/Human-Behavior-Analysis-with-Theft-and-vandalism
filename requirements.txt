@@ -1,0 +1,19 @@
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+ultralytics>=8.0.0      # YOLOv8 package
+opencv-python>=4.7.0
+numpy>=1.23.0
+pandas>=1.5.0
+matplotlib>=3.7.0
+scikit-learn>=1.2.0
+tqdm>=4.65.0
+
+# Optional (for EfficientNet feature extraction)
+efficientnet_pytorch>=0.7.1
+
+# Optional (for data augmentation & transforms)
+albumentations>=1.3.0
+
+# If using Jupyter notebooks for experiments
+jupyter>=1.0.0
