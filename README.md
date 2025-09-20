@@ -40,3 +40,32 @@ By combining **YOLOv8 for object detection** and **CNN + LSTM-based sequence mod
 └── normal
 
 pip install -r requirements.txt
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run feature extraction:
+
+python extract_features.py
+
+
+Train the model:
+
+python train.py
+
+
+Run inference on any videos or integrate with live camera feed:
+
+python predict.py --video test_video.mp4
+
+📊 Results
+
+Classification Accuracy: 88% (on test set)
+
+Per-frame Compliance Accuracy: 82%
+
+
+
+
