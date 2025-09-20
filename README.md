@@ -23,4 +23,14 @@ By combining **YOLOv8 for object detection** and **CNN + LSTM-based sequence mod
 - **Additional Tools**: OpenCV, Numpy, Matplotlib  
 - **Dataset Structure**:
 
-- 
+- /dataset
+├── train
+│ ├── fighting
+│ ├── theft
+│ ├── vandalism
+│ └── normal
+└── test
+├── fighting
+├── theft
+├── vandalism
+└── normal
